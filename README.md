@@ -1,0 +1,2 @@
+# 2019_13thModelicaConf_PMUBasedAutomaticResynchronization
+This repository contains Re-synchronization Operation Controller Model Implementations.

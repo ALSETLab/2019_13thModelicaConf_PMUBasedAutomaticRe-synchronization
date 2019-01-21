@@ -1,7 +1,7 @@
 # PMU Based Automatic Re-synchronization Controller Model Implementation in Modelica
 
 
-![Alt Text] (https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/FigureArchitecture.png)
+![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/FigureArchitecture.png)
       
 
 This repository contains an Automatic re-synchronization Controller Model Implementation. These Modelica-compliant models are briefly described in the following paper of the American Modelica Conference 2018:

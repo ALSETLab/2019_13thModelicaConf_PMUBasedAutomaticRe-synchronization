@@ -3,9 +3,7 @@
 This repository contains an Automatic re-synchronization Controller Model Implementation. These Modelica-compliant models are briefly described in the following paper of the American Modelica Conference 2018:
 
 ![alt text]
-(https://github.com/ALSETLab/
-        2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/Figures/FigureArchitecture.png
-      )
+(https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/Figures/FigureArchitecture.png)
 
 > Biswarup Mukherjee and Luigi Vanfretti, "Modeling of PMU-Based Automatic Re-synchronization Controls for DER Generators in Power Distribution Networks using Modelica language," Proceedings of the 13th International Modelica Conference, Regensburg, Germany, March 4–6, 2019.
 

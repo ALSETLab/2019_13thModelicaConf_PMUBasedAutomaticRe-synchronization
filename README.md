@@ -1,5 +1,6 @@
 # PMU Based Automatic Re-synchronization Controller Model Implementation in Modelica
 
+
 ![alt text]
 (https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/FigureArchitecture.png
       

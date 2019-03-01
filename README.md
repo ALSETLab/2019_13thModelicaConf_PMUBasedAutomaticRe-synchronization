@@ -19,7 +19,7 @@ In your favorite Modelica tool, e.g. Open Modelica, follow the steps below:
 model (G22) implemented using ModelicaModelica implementation of the Generator model used in the distribution network of the `Network_10MW` including the Automatic Re-synchronization controller.
 - Go to the `Simulation` tab of your tool, and click the `Simulate` button.
 - The simulaiton results of the transmission and distribution network bus voltages should be similar to figure shown below:
-![alt text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/Example_Results/Dymola2018/Re-synchController/Plot_Network_10MW.png)
+![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/Plot_Network_10MW.png)
 
 
 - You can perform similar simulations of the power system model by making your own changes using other components from the distributed package 'Modelica2018US_IslandedOperationControl.mo'.

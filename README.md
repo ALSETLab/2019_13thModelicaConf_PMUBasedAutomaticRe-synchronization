@@ -1,22 +1,28 @@
 # PMU Based Automatic Re-synchronization Controller Model Implementation in Modelica
 
-
-![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/FigureArchitecture.png)
-      
+## Architecture of the Automatic Re-synchronization Controller
+![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/FigureArchitecture.png)    
 
 This repository contains an Automatic re-synchronization Controller Model Implementation. These Modelica-compliant models are briefly described in the following paper of the American Modelica Conference 2018:
 
-> Biswarup Mukherjee and Luigi Vanfretti, "Modeling of PMU-Based Automatic Re-synchronization Controls for DER Generators in Power Distribution Networks using Modelica language," Proceedings of the 13th International Modelica Conference, Regensburg, Germany, March 4–6, 2019.
+> Biswarup Mukherjee and Luigi Vanfretti, "Modeling of PMU-Based Automatic Re-synchronization Controls for DER Generators in Power Distribution Networks using Modelica language," Proceedings of the 13th International Modelica Conference, Regensburg, Germany, March 4–6, 2019. [http://dx.doi.org/10.3384/ecp19157607]
 
+## Centralized Control Structure implementation using Modelica within the Generator (G22).
 ![Centralized control system architecture and Modelica implementation](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/G22_ResynchControl.png)
 
-> Abstract: Re-synchronization is traditionally coordinated between the electric power transmission network operators and power plants in an isolated portion of the grid in order to maintain the balance between the power supply and demand. This task can be challenging when one portion of the distribution grid contains small generators having low inertia which is the case of Distributed Energy Resources (DER), such as small hydro, wind and solar power plants. As the number of DER continues to increase with the rise of renewable energy sources located at the lower voltage networks, automatic re-synchronization method that can be applied to a great number of DER are desirable. The paper describes the architecture and modeling of an automatic re-synchronization controller, which can be applied to synchronize an islanded portion of the grid by using remote measurements to drive a Distributed Energy Resource (DER) within the islanded network. The controller’s re-synchronization function uses bus frequency measurements, which are derived using bus voltage phasors and a new bus frequency computation technique that can be used during the execution of dynamic simulations. This paper also introduces a new bus-angle difference control function within the re-synchronization control system, which allows monitoring the phase angle difference between two buses so to avoid unwanted re-synchronization. The effect of the angle difference control function is evaluated using a controlled circuit breaker considering different power dispatch levels of the generator in the distribution network model. Both deterministic and stochastic load models are used to analyze the performance of the automatic re-synchronization control system. 
+## How to Simulate it?
 
-Keywords: Automatic re-synchronization controller; phase angle difference controller; power distribution network; synchrophasors; Modelica; OpenIPSL
+In your favorite Modelica tool, e.g. Open Modelica, follow the steps below:
+- File/Open `./package.mo`
+- Under the main package `Modelica2019Germany_ResynchOperation`, Six subpackages should appear as: (1) `Controls`, (2) `Generators`, (3) `SimulationSetups`, (4) `Essentials`, (5) `PowerFlowData`, (6) `Network`. It is recommended to use the distributed version of OpenIPSL library package (version: 1.0.0) from this repository.
+- Under the `Network` subpackage, go to the model `Network_10MW`; the Modelica implementation of the distribution network generator model centralized control structure within the generator
+model (G22) implemented using ModelicaModelica implementation of the Generator model used in the distribution network of the `Network_10MW` including the Automatic Re-synchronization controller.
+- Go to the `Simulation` tab of your tool, and click the `Simulate` button.
+- The simulaiton results of the transmission and distribution network bus voltages should be similar to figure shown below:
+![alt text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/Example_Results/Dymola2018/Re-synchController/Plot_Network_10MW.png)
 
 
-
-- Models used in this paper will be available shortly.
+- You can perform similar simulations of the power system model by making your own changes using other components from the distributed package 'Modelica2018US_IslandedOperationControl.mo'.
 
 
 ## Development and contribution
@@ -29,5 +35,4 @@ Contributions are welcome via pull requests.
 
 This Modelica package is free software and the use is completely at your own risk; it can be redistributed and/or modified under the terms of the GNU Public License version 3.
 
-Copyright (C) 2018, Biswarup Mukherjee and Luigi Vanfretti
-
+Copyright (C) 2019, [Biswarup Mukherjee](https://github.com/BiswarupM) and [Luigi Vanfretti](https://github.com/lvanfretti)

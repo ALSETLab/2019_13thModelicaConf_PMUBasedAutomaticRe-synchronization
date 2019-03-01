@@ -18,6 +18,7 @@ In your favorite Modelica tool, e.g. Open Modelica, follow the steps below:
 - Under the `Network` subpackage, go to the model `Network_10MW`; the Modelica implementation of the distribution network generator model is shown above including the Automatic Re-synchronization controller.
 - Go to the `Simulation` tab of your tool, and click the `Simulate` button.
 - The simulaiton results of the transmission and distribution network bus voltages should be similar to the figure shown below:
+
 ![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/Plot_Network_10MW.png)
 
 

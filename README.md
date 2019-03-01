@@ -7,7 +7,7 @@ This repository contains an Automatic re-synchronization Controller Model Implem
 
 > Biswarup Mukherjee and Luigi Vanfretti, "Modeling of PMU-Based Automatic Re-synchronization Controls for DER Generators in Power Distribution Networks using Modelica language," Proceedings of the 13th International Modelica Conference, Regensburg, Germany, March 4–6, 2019. [http://dx.doi.org/10.3384/ecp19157607]
 
-## Centralized Control Structure Implementation.
+## Centralized Control Structure Implementation
 ![Alt_Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/G22_ResynchControl.png)
 
 ## How to Simulate it?
@@ -22,7 +22,7 @@ In your favorite Modelica tool, e.g. Open Modelica, follow the steps below:
 ![Alt Text](https://github.com/ALSETLab/2019_13thModelicaConf_PMUBasedAutomaticRe-synchronization/blob/master/Example_Results/Dymola2018/Re-synchController/Plot_Network_10MW.png)
 
 
-- You can perform similar simulations of the power system model by making your own changes using other components from the distributed package 'Modelica2018US_IslandedOperationControl.mo'.
+- You can perform similar simulations of the power system model by making your own changes using other components from the distributed package 'Modelica2019Germany_ResynchOperation.mo'.
 
 
 ## Development and contribution

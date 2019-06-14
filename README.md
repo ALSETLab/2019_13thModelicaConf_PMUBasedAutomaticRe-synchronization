@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2604357.svg)](https://doi.org/10.5281/zenodo.2604357)
 # PMU Based Automatic Re-synchronization Controller Model Implementation in Modelica
 
 ## Architecture of the Automatic Re-synchronization Controller
